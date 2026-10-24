@@ -1,13 +1,6 @@
 # 默认不改变已入库文件的行尾，避免"合并"变成整库换行符重写
 * -text
 
-# lab2 从 Windows 打包而来（CRLF），已按 .gitattributes 约定归一化为 LF，入库保持 LF
-labcodes/lab2/** text eol=lf
-
-# 原始运行日志与 GDB 脚本按字节保存，证据可复核
-labcodes/lab2/logs/** -text
-labcodes/lab2/debug/member1/** -text
-
 # 归档文件按二进制保存
 *.zip binary
 *.tar.gz binary

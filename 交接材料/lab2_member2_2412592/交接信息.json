@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-10-24T08:39:54.675746+00:00",
+  "author": {
+    "name": "邹俊轩",
+    "student_id": "2412592"
+  },
+  "source_repository": "https://github.com/shangyang61/10-OS2026",
+  "source_branch": "lab2-member2-report",
+  "source_commit": "32f530c778478d84a0435eeb468e6afd1a7ed34d",
+  "source_lab2_file_count": 87,
+  "file_count_including_metadata_and_manifest": 94,
+  "verification_environment": "Ubuntu-22.04 WSL2 / RISC-V GCC 15.1.0 / QEMU 7.0.0",
+  "recorded_results": [
+    {
+      "case": "member2_wsl_128M",
+      "profile": "portable",
+      "memory": "128M",
+      "markers": [
+        "memory management: best_fit_pmm_manager",
+        "check_alloc_page() succeeded!",
+        "member2_page_check() succeeded!",
+        "slub_check() succeeded!"
+      ],
+      "image_sha256": "a2407b9a61e8c462a16d3d9a5dbd2bb205459997dc6340ec1bc1dc34dfd56dc4",
+      "result": "PASS"
+    },
+    {
+      "case": "original make grade",
+      "result": "PASS",
+      "score": "20/20"
+    },
+    {
+      "case": "member2_wsl_128M_first_fit",
+      "profile": "portable",
+      "memory": "128M",
+      "markers": [
+        "memory management: default_pmm_manager",
+        "check_alloc_page() succeeded!",
+        "first_fit_tail_check() succeeded!",
+        "slub_check() succeeded!"
+      ],
+      "image_sha256": "85e2c033c444843c4f2bf3af3d8802658a34d39096c35f7d66c5142dcee57a81",
+      "result": "PASS"
+    }
+  ],
+  "current_vmware_integrated_kernel_test": "NOT_RUN",
+  "member3_pending": [
+    "Buddy implementation and independent tests",
+    "Independent SLUB tests",
+    "Integration acceptance and final report"
+  ],
+  "hash_manifest": "SHA256SUMS.txt"
+}
