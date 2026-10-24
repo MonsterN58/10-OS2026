@@ -1,0 +1,21 @@
+# 构建产物
+**/obj/
+**/bin/
+**/__pycache__/
+*.pyc
+**/.qemu.out
+**/.gdb.in
+**/vcs/
+**/cscope*
+**/tags
+**/proj*-handin.tar.gz
+*.tar.gz
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 原始 lab1 备份需要入库，作为唯一基线副本
+!lab1_原始版备份.tar.gz
