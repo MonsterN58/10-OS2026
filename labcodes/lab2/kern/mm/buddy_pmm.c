@@ -4,7 +4,7 @@
 #include <pmm.h>
 #include <stdio.h>
 
-//lab2 function3-1 2412592 member3
+//lab2 function3-1 2411738 秦东杰
 /* *
  * Buddy System with explicit order bookkeeping.
  *

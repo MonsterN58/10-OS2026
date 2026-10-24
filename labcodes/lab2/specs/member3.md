@@ -1,5 +1,7 @@
 # 成员三规格：Buddy System 与独立测试
 
+作者：秦东杰，2411738。
+
 ## 范围
 
 成员三负责 Buddy System 实现与接入、Buddy 的实现与测试两份 prompt、
